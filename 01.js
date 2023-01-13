@@ -10,8 +10,21 @@ function soloNumeros(array) {
   // Ej: 
   // soloNumeros([1, 'Henry', 2]) debe retornar [1, 2]
 
-  // Tu código aca:
+  /
+  / Tu código aca:
+    function  soloNumeros ( matriz )  {                                                                                                                                              
+  var resultado = [];
 
+for (var i = 0; i < matriz.length; i++) {
+if (typeof matriz[i] === 'number') {
+resultado.push(matriz[i]);
+       }
+    }
+
+return resultado;
+}
+
+console.log(soloNumeros([1, 'Henry', 2])); // [1.2
 }
 
 // No modifiques nada debajo de esta linea //

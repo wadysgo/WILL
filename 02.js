@@ -11,9 +11,21 @@ function stringMasLarga(strings) {
   // stringMasLarga(['hi', 'hello', 'ni hao', 'guten tag']); debe retornar 'guten tag'
   // stringMasLarga(['JavaScript', 'HTML', 'CSS']); debe retornar 'JavaScript'
 
-  // Tu código aca
+  /
+  /
+    Tu código aca
 }
 
+      function cadenaMasLarga(cadenas) {
+        let masLarga = "";
+        for (let i = 0; i < cadenas.length; i++) {
+          if (cadenas[i].length > masLarga.length) {
+            masLarga = cadenas[i];
+          }
+        }
+        return masLarga;
+      }
+      console.log(cadenaMasLarga);
 // No modifiques nada debajo de esta linea //
 
 module.exports = stringMasLarga
